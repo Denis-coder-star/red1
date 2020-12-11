@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 968px !important;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px !important;
+  }
+  .header-body {
+    display: block !important;
+    text-align: center;
+  }
+  .menu__item {
+    margin: 0 auto;
+  }
+  .menu__item:first-child {
+    margin-left: 20px !important;
+  }
+  .russia {
+    margin-right: 0 !important;
+    margin-top: 20px;
+  }
+  .data-menu a {
+    margin-left: 0 !important;
+  }
+  .data-menu a:first-child {
+    margin-right: 80px;
+  }
+  .data-menu a:last-child {
+    margin-left: 80px !important;
+  }
+  .data-menu {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px !important;
+  }
+  .order-container {
+    width: 90% !important;
+  }
+  .visible-service p,
+  .link-visible p,
+  .service-down p,
+  .drop-down p {
+    line-height: 1.5em;
+  }
+  .green-text p,
+  .description-block p {
+    line-height: 1.5em;
+  }
+  .menu,
+  .data-menu,
+  .russia {
+    display: none !important;
+  }
+  .header {
+    padding: 35px 0 !important;
+  }
+  content {
+    opacity: 1 !important;
+  }
+  .puctires-first img:last-child,
+  .pictures-second img:last-child,
+  .puctires-first img:nth-child(4),
+  .puctires-second img:nth-child(4) {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 578px) {
+  .container {
+    width: 90% !important;
+  }
+  .puctires-first,
+  .pictures-second {
+    display: block !important;
+  }
+  .puctires-first img,
+  .pictures-second img {
+    display: block;
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .puctires-first img:last-child,
+  .pictures-second img:last-child,
+  .puctires-first img:nth-child(4),
+  .puctires-second img:nth-child(4) {
+    margin: 0;
+  }
+  .order-pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .order-pictures img {
+    margin-left: 0 !important;
+  }
+  .preloader p {
+    top: 70% !important;
+  }
+}
